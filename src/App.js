@@ -1,25 +1,50 @@
 import logo from './logo.svg';
 import './App.css';
+import { useEffect } from 'react';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  let str = new Date().toString();
+	let time = new Date();
+	let date = time.getDate();
+	let month = time.getMonth();
+	let year = time.getFullYear();
+	let timer;
+	
+	const displayTimer = () => {
+		let time = new Date();
+		let hour = time.getHours();
+		let minutes = time.getMinutes();
+		let seconds = time.getSeconds();
+		let displayTime = `${hour} : ${minutes} : ${seconds}`
+		document.getElementById('time-block').innerHTML = `${date}/${month}/${year} ${displayTime}`;
+		// console.log(str)
+	}
+	function timerFunc() {
+		displayTimer();
+		timer = setTimeout(() => {
+			timerFunc();
+		},1000)
+	}
+	const resumeTimer = () => {
+		timerFunc();
+	}
+	const stopTimer = () => {
+		clearTimeout(timer);
+		return;
+	}
+  useEffect(() => {
+    resumeTimer();
+  },[])
+
+	return (
+		<div className="main-container">
+			<div id="time-block" className="time-block">
+				{str}
+			</div>
+			<button onClick={stopTimer}>stop</button>
+			<button onClick={resumeTimer}>resume</button>
+		</div>
+	);
 }
 
 export default App;
