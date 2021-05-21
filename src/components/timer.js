@@ -7,8 +7,8 @@ function Timer() {
 	let month = newTime.getMonth();
 	let year = newTime.getFullYear();
 	let timer;
-    const firstTimer = `${date}/${month}/${year} ${newTime.getHours()} : ${newTime.getMinutes()} : ${newTime.getSeconds()}`;
-    // const firstTimer = new Date().toString();
+    // const firstTimer = `${date}/${month}/${year} ${newTime.getHours()} : ${newTime.getMinutes()} : ${newTime.getSeconds()}`;
+    const firstTimer = new Date().toString();
 	
 	const displayTimer = () => {
 		let time = new Date();
