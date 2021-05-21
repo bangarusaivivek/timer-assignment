@@ -38,6 +38,7 @@
 }
 
 .main-container {
+  position: relative;
   height: 100vh;
   width: 100vw;
   background-color: white;
@@ -46,6 +47,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.dropdown {
+  position: absolute;
+  right: 100px;
+  top: 100px;
+}
+select {
+  height: 40px;
+  width: 100px;
 }
 
 .main-container .time-block {
@@ -65,7 +75,7 @@ button {
   display: block;
   font-size: .80rem;
   border: 1px solid lightgray;
-  background-color: transparent;
+  background-color: white;
   padding: 10px;
   border-radius: 4px;  
   width: 8em; 
@@ -79,4 +89,10 @@ button:hover {
 }
 button:focus {
   outline:0;
+}
+.black {
+  background-color: black;
+}
+.white {
+  background-color: white;
 }
