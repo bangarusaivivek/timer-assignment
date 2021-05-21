@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/timer-assignment/static/css/main.d5d21949.chunk.css",
-    "main.js": "/timer-assignment/static/js/main.c057cf1d.chunk.js",
-    "main.js.map": "/timer-assignment/static/js/main.c057cf1d.chunk.js.map",
-    "runtime-main.js": "/timer-assignment/static/js/runtime-main.8155b243.js",
-    "runtime-main.js.map": "/timer-assignment/static/js/runtime-main.8155b243.js.map",
-    "static/js/2.a086a408.chunk.js": "/timer-assignment/static/js/2.a086a408.chunk.js",
-    "static/js/2.a086a408.chunk.js.map": "/timer-assignment/static/js/2.a086a408.chunk.js.map",
-    "static/js/3.6c16e2f1.chunk.js": "/timer-assignment/static/js/3.6c16e2f1.chunk.js",
-    "static/js/3.6c16e2f1.chunk.js.map": "/timer-assignment/static/js/3.6c16e2f1.chunk.js.map",
+    "main.css": "/timer-assignment/static/css/main.d245c243.chunk.css",
+    "main.js": "/timer-assignment/static/js/main.f5cb04b4.chunk.js",
+    "main.js.map": "/timer-assignment/static/js/main.f5cb04b4.chunk.js.map",
+    "runtime-main.js": "/timer-assignment/static/js/runtime-main.c1bd2943.js",
+    "runtime-main.js.map": "/timer-assignment/static/js/runtime-main.c1bd2943.js.map",
+    "static/js/2.6f7019a3.chunk.js": "/timer-assignment/static/js/2.6f7019a3.chunk.js",
+    "static/js/2.6f7019a3.chunk.js.map": "/timer-assignment/static/js/2.6f7019a3.chunk.js.map",
+    "static/js/3.71ee034c.chunk.js": "/timer-assignment/static/js/3.71ee034c.chunk.js",
+    "static/js/3.71ee034c.chunk.js.map": "/timer-assignment/static/js/3.71ee034c.chunk.js.map",
     "index.html": "/timer-assignment/index.html",
-    "static/css/main.d5d21949.chunk.css.map": "/timer-assignment/static/css/main.d5d21949.chunk.css.map",
-    "static/js/2.a086a408.chunk.js.LICENSE.txt": "/timer-assignment/static/js/2.a086a408.chunk.js.LICENSE.txt",
+    "static/css/main.d245c243.chunk.css.map": "/timer-assignment/static/css/main.d245c243.chunk.css.map",
+    "static/js/2.6f7019a3.chunk.js.LICENSE.txt": "/timer-assignment/static/js/2.6f7019a3.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/timer-assignment/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8155b243.js",
-    "static/js/2.a086a408.chunk.js",
-    "static/css/main.d5d21949.chunk.css",
-    "static/js/main.c057cf1d.chunk.js"
+    "static/js/runtime-main.c1bd2943.js",
+    "static/js/2.6f7019a3.chunk.js",
+    "static/css/main.d245c243.chunk.css",
+    "static/js/main.f5cb04b4.chunk.js"
   ]
 }
